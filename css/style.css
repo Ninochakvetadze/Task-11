@@ -88,6 +88,7 @@ input[type="submit"] {
     margin-top: 50px;
 }
 .fa-solid, .fa-regular {
+    color: white;
     width: 59px;
     height: 59px;
     display: flex;
@@ -131,4 +132,96 @@ p {
 .image3 {
     width: 352px;
     margin-left: 110px;
+}
+
+
+
+footer {
+    width: 1441px;
+    height: 395px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #121212;
+    margin-top: 5px;
+}
+.card1 {
+    width: 261px;
+    height: 184px;
+    margin-top: 102px;
+    margin-left: 139px;
+}.cardh2 {
+    margin-bottom: 26px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.paragraph {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #b1b1b1;
+}
+.divcard1 {
+    display: flex;
+}
+
+.fb {
+    color: white;
+    background-color: #3b5998;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tweet {
+    color: white;
+    background-color: #55acee;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google {
+    color: white;
+    background-color: #dc4e41;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 {
+    margin-left: 199px;
+    display: flex;
+    justify-content: space-around;
+}
+.paragraph2 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 94px;
+    margin-right: 84px;
+    margin-bottom: 28px;    
+}
+li {
+    font-size: 14px;
+    color: #5863f8;
+    margin-bottom: 15px;
+}
+.paragraph3 {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.envelope, .phone, .location {
+    width: 18px;
+    height: 18px;
+    color: white;
+    background-color: black;
 }
