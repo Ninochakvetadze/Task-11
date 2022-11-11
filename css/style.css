@@ -87,6 +87,12 @@ input[type="submit"] {
     justify-content: space-around;
     margin-top: 50px;
 }
+.icon1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .fa-solid, .fa-regular {
     color: white;
     width: 59px;
@@ -99,8 +105,11 @@ input[type="submit"] {
 }
 h4 {
     font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 9px;
 }
 p {
+    margin-bottom: 10px;
     font-size: 14px;
     color: gray;
 }
@@ -214,6 +223,14 @@ li {
     color: #5863f8;
     margin-bottom: 15px;
 }
+.footerdiv {
+    display: flex;;
+    margin-bottom: 24px;
+}
+.footerdiv > p {
+    margin-left: 13px;
+    font-size: 14px;
+}
 .paragraph3 {
     font-size: 14px;
     color: #ffffff;
@@ -222,6 +239,6 @@ li {
 .envelope, .phone, .location {
     width: 18px;
     height: 18px;
-    color: white;
+    color: #5863f8;
     background-color: black;
 }
